@@ -1,34 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Software Development 101</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Software Development 101 | Home</title>
+  <meta name="description" content="Software Development 101 is a beginner-friendly site covering programming languages, web development, and databases." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <header>
-    <h1>Software Development 101</h1>
-    <p>An informational website for beginners</p>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="brand">
+      <img src="images/logo.png" class="logo" alt="Software Development 101 logo" />
+      <div>
+        <h1>Software Development 101</h1>
+        <p class="tagline">An informational website for beginners</p>
+      </div>
+    </div>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a aria-current="page" href="index.html">Home</a></li>
+        <li><a href="programming-languages.html">Programming Languages</a></li>
+        <li><a href="web-development.html">Web Development</a></li>
+        <li><a href="databases.html">Databases</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <main>
-    <section>
-      <h2>Programming Languages</h2>
-      <p>Information about common programming languages used in software development.</p>
+  <main id="main" class="container">
+    <section class="card">
+      <h2>What this site covers</h2>
+      <p>
+        This site is a beginner-friendly overview of some core topics in software development: common programming languages,
+        the basics of web development, and how databases store and manage data.
+      </p>
+
+      <ul>
+        <li><strong>Programming Languages</strong> — what they are and why they matter</li>
+        <li><strong>Web Development</strong> — front-end vs. back-end basics</li>
+        <li><strong>Databases</strong> — tables, queries, and how data is organized</li>
+      </ul>
+
+      <p class="cta">
+        Ready to keep going? <a class="button" href="programming-languages.html">Start with Programming Languages</a>
+      </p>
     </section>
 
-    <section>
-      <h2>Web Development</h2>
-      <p>Overview of front-end and back-end web development concepts.</p>
-    </section>
-
-    <section>
-      <h2>Databases</h2>
-      <p>Basic information about how databases store and manage data.</p>
+    <section class="card">
+      <h2>Beginner tip</h2>
+      <p>
+        If you’re new, focus on understanding the “why” first. You don’t need to memorize everything — just learn the purpose of each tool and concept.
+      </p>
+      <img
+        src="images/software-development-roadmap.jpg"
+        alt="Simple roadmap image showing learning steps: basics, practice, projects, then deeper topics"
+        class="feature-image"
+      />
     </section>
   </main>
 
-  <footer>
+  <footer class="site-footer">
     <p>Educational use only</p>
+    <p>
+      View the source code:
+      <a href="https://secure-web.cisco.com/1kSWdvgW1dMrozi3nB9bquV7VF9kPhMH-N_-jgn3ALPXxSj6Hey6uUMhpjY7Sy95QXgSrEmLKhLGH4-HsLdzvhZmYWojBput4ujaAYwp878adhf6FCImus3PY9NJoPmqozQ_DVr9lWC8VunaV8AdwhNI4g4UW5nqFvJs91cWDaC2nCHojp6dxrXgNPUlwLDaMEZ22usqBip30VjT4ohhLKpnuSkJdrtvbqlFnmpG0kRmVNjEfTFgqZjwlFEtdZ4FA7BllLrZHmQ-I5YH93_fUVbfbi8q7IpuEDrVzYzsEWSKELFIKRBaWAgTD1s_W3qca/https%3A%2F%2Fgithub.com%2Fannam0727%2Fsoftware-development-101">GitHub Repository</a>
+    </p>
   </footer>
 </body>
 </html>

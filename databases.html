@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Software Development 101 | Databases</title>
+  <meta name="description" content="Learn beginner database concepts like tables, rows, columns, and basic query ideas." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="brand">
+      <img src="images/logo.png" class="logo" alt="Software Development 101 logo" />
+      <div>
+        <h1>Software Development 101</h1>
+        <p class="tagline">Databases</p>
+      </div>
+    </div>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="programming-languages.html">Programming Languages</a></li>
+        <li><a href="web-development.html">Web Development</a></li>
+        <li><a aria-current="page" href="databases.html">Databases</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <section class="card">
+      <h2>What is a database?</h2>
+      <p>
+        A database stores information in an organized way so you can find, update, and manage it efficiently. Many databases use tables
+        made of rows and columns.
+      </p>
+
+      <h3>Quick comparison table</h3>
+      <table>
+        <caption>Beginner comparison of common database types</caption>
+        <thead>
+          <tr>
+            <th scope="col">Type</th>
+            <th scope="col">Example</th>
+            <th scope="col">Best for</th>
+            <th scope="col">Simple description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Relational (SQL)</td>
+            <td>MySQL</td>
+            <td>Structured data</td>
+            <td>Data stored in tables with relationships</td>
+          </tr>
+          <tr>
+            <td>Relational (SQL)</td>
+            <td>PostgreSQL</td>
+            <td>Apps needing strong data integrity</td>
+            <td>Advanced SQL features and reliability</td>
+          </tr>
+          <tr>
+            <td>NoSQL</td>
+            <td>MongoDB</td>
+            <td>Flexible / changing data</td>
+            <td>Document-style storage instead of tables</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>
+        External resource: <a href="https://www.mongodb.com/resources/basics/databases" target="_blank" rel="noopener">MongoDB: Database Basics</a>
+      </p>
+
+      <img
+        src="images/database-diagram.jpg"
+        alt="Simple diagram showing a database table with rows and columns"
+        class="feature-image"
+      />
+    </section>
+
+    <section class="card">
+      <h2>Beginner tip</h2>
+      <p>
+        If you’re learning SQL, start with SELECT queries first. Once that clicks, add filters (WHERE) and sorting (ORDER BY).
+      </p>
+      <p class="cta">
+        Next: <a class="button" href="contact.html">Contact / Questions</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Educational use only</p>
+  </footer>
+</body>
+</html>
